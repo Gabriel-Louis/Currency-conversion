@@ -1,0 +1,72 @@
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+h1 {
+    text-align: center;
+    flex: 100px; flex-direction: column; 
+    padding-top: 30px;
+    font-size: 50px;
+    padding-bottom: 40px;
+}
+
+.lead, .myform {
+    text-align: center;
+}
+
+.data, .form-input{
+    margin-bottom: 20px;
+}
+
+.data {
+    padding-left: 40px;
+}
+
+.form-row {
+    margin-right: 40px;
+    width: 150px;
+    height: 50px;
+}
+
+.btn{
+    width: 110px;
+    height: 50px;
+    background-color: green;
+}
+
+.btn:hover {
+
+    background-color: red;
+}
+
+.below{
+    margin-top: 140px;
+    text-align: center;
+}
+
+.footer_bottom {
+    text-align: center;
+}
+
+
+.given-amount {
+    color: red;
+}
+
+.second-currency {
+    color: green;
+}
+
+
+
+/*
+ currency.EUR.NGN || currency.EUR.POUND || currency.EUR.USD || currency.EUR.YUAN || currency.EUR.CIDI; 
+currency.NGN.EUR || currency.NGN.POUND  || currency.NGN.USD || currency.NGN.YUAN || currency.NGN.CIDI; 
+currency.USD.EUR || currency.USD.POUND || currency.USD.YUAN || currency.USD.CIDI ||currency.USD.NGN; 
+currency.YUAN.EUR || currency.YUAN.POUND || currency.YUAN.USD || currency.YUAN.CIDI || currency.YUAN.NGN; 
+currency.CIDI.EUR || currency.CIDI.POUND || currency.CIDI.USD || currency.CIDI.YUAN || currency.CIDI.NGN;
+        
+*/
+
